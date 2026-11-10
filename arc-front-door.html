@@ -62,19 +62,29 @@
 
   /* ---------- HERO ---------- */
   .hero{background:var(--dark);color:var(--dark-ink);position:relative;overflow:hidden}
-  .hero-grid{display:grid;grid-template-columns:1.05fr .95fr;min-height:88svh}
-  .hero-copy{display:flex;flex-direction:column;justify-content:center;padding:64px 0 56px;position:relative;z-index:2}
+  .hero-grid{display:grid;grid-template-columns:1.05fr .95fr;min-height:0}
+  .hero-copy{display:flex;flex-direction:column;justify-content:center;padding:56px 0 56px;position:relative;z-index:2}
   .hero-eyebrow{display:flex;align-items:center;gap:12px;font-family:"IBM Plex Mono",monospace;font-size:12.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--gold-bright)}
   .hero-eyebrow::before{content:"";width:34px;height:1px;background:var(--gold-bright)}
   .hero h1{
-    font-size:clamp(2.6rem,6.2vw,4.6rem);line-height:.98;font-weight:900;letter-spacing:-.02em;
-    margin:22px 0 0;text-wrap:balance;
+    font-size:clamp(2.05rem,4.6vw,3.35rem);line-height:1.05;font-weight:900;letter-spacing:-.02em;
+    margin:18px 0 0;text-wrap:balance;max-width:18ch;
   }
-  .hero h1 .rel{color:var(--gold-bright)}
-  .hero h1 .set{color:#e056b8}
-  .hero-sub{font-family:"Newsreader",serif;font-size:clamp(1.15rem,2vw,1.4rem);line-height:1.5;color:var(--dark-ink);max-width:34em;margin:26px 0 0}
-  .hero-sub em{color:var(--dark-ink-2)}
-  .hero-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:34px}
+  .hero-commons{
+    font-family:"Newsreader",serif;font-size:clamp(1.35rem,2.3vw,1.75rem);line-height:1.25;font-weight:500;
+    color:var(--dark-ink);margin:16px 0 0;max-width:22em;text-wrap:balance;
+  }
+  .hero-tagline{
+    font-size:clamp(1.15rem,2.1vw,1.55rem);line-height:1.25;font-weight:800;letter-spacing:-.015em;
+    margin:22px 0 0;color:var(--dark-ink);
+  }
+  .hero-tagline .rel{color:var(--gold-bright)}
+  .hero-tagline .set{color:#e056b8}
+  .hero-sub{font-family:"Newsreader",serif;font-size:clamp(1.02rem,1.6vw,1.18rem);line-height:1.5;color:var(--dark-ink);max-width:36em;margin:18px 0 0}
+  .hero-sub-follow{margin-top:12px}
+  .hero-sub a{color:var(--gold-bright)}
+  .hero-cta{margin:20px 0 0;font-weight:800;font-size:clamp(1.05rem,1.7vw,1.2rem);color:var(--gold-bright);letter-spacing:-.01em}
+  .hero-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:26px}
   .btn{
     display:inline-flex;align-items:center;gap:9px;min-height:48px;padding:12px 22px;border-radius:999px;
     font-weight:700;font-size:15px;text-decoration:none;border:1px solid transparent;cursor:pointer;
@@ -330,17 +340,19 @@
   <div class="wrap">
     <div class="hero-grid">
       <div class="hero-copy">
-        <p class="hero-eyebrow">ARC · AUTONOMOUS RELATIONAL COMPUTING</p>
-        <h1>Intelligence proposes.<br/>Governance <span class="rel">settles</span>.<br/>Consequences become <span class="set">accountable</span>.</h1>
-        <p class="hero-sub">ARC is a proposed computing architecture, not another AI agent framework. It is a technical answer to one of the most consequential problems in autonomous computing: <em>Who governs what an intelligent machine can actually cause to happen?</em></p>
+        <p class="hero-eyebrow">ARC Open Governance</p>
+        <h1>Governance for a world where intelligent machines can act.</h1>
+        <p class="hero-commons">Building a neutral research commons for consequential computing.</p>
+        <p class="hero-tagline">Intelligence proposes. Governance <span class="rel">settles</span>. Consequences become <span class="set">accountable</span>.</p>
+        <p class="hero-sub">We're developing an alternative computing architecture and a new experiment in organizational governance: how can people and intelligent agents participate in systems whose real-world effects are authorized, limited, recorded and independently examinable?</p>
+        <p class="hero-sub hero-sub-follow">Our first institutional experiment is ARC Open Governance, a foundation in formation working toward a machine-governed organization. A public Book of consequential decisions is planned; it is not yet published. ARC Open Governance is not a legally established or tax-exempt organization. Human decision-makers currently hold release authority. Machine governance is an active experiment.</p>
+        <p class="hero-sub hero-sub-follow">Our technical research investigates relations, Consequential Reachability and Recursive Relational Settlement.</p>
+        <p class="hero-sub hero-sub-follow">The research is already open for examination. Run the public <a href="https://github.com/arc-open-governance/arc-examiner-kit" target="_blank" rel="noopener">Examiner Kit</a>, challenge the <a href="https://github.com/arc-open-governance/Consequential-reachability" target="_blank" rel="noopener">Consequential Reachability Benchmark</a>, propose a stronger conventional implementation, or help develop the runtime and its applications.</p>
+        <p class="hero-cta">Examine it. Challenge it. Help build the infrastructure.</p>
         <div class="hero-actions">
           <a class="btn btn-gold" href="https://github.com/arc-open-governance/arc-examiner-kit" target="_blank" rel="noopener">Run the Examiner Kit ↗</a>
           <a class="btn btn-ghost" href="https://github.com/arc-open-governance/Consequential-reachability" target="_blank" rel="noopener">Open the Benchmark ↗</a>
           <a class="btn btn-ghost" href="#challenge">The challenge</a>
-        </div>
-        <div class="hero-live">
-          <span class="live-dot" aria-hidden="true"></span>
-          <p><strong>ARC Open Governance — The Agent Consequence Challenge.</strong> The Benchmark is the way in; the Examiner Kit is what you run. Full GMAP/KORE integration (ARC-01) is the next major release, in progress — not a gate.</p>
         </div>
       </div>
       <div class="hero-art">

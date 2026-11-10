@@ -2,17 +2,23 @@
   <img src="assets/arc-gold-logo.png" alt="ARC Technologies logo: gold Λ mark in a gold arc above a glowing horizon, with the ARC wordmark" width="280">
 </p>
 
-# ARC · AUTONOMOUS RELATIONAL COMPUTING
+# ARC Open Governance
 
-## Intelligence proposes. Governance settles. Consequences become accountable.
+## Governance for a world where intelligent machines can act.
 
-ARC is a proposed computing architecture, not another AI agent framework. It is a technical answer to one of the most consequential problems in autonomous computing:
+## Building a neutral research commons for consequential computing.
 
-**Who governs what an intelligent machine can actually cause to happen?**
+**Intelligence proposes. Governance settles. Consequences become accountable.**
 
-Conventional agent systems can reason, plan and call tools. ARC's architectural proposition is to make consequential authority, relational dependencies, settlement and independently examinable outcomes part of the computing substrate itself.
+We're developing an alternative computing architecture and a new experiment in organizational governance: how can people and intelligent agents participate in systems whose real-world effects are authorized, limited, recorded and independently examinable?
 
-The public identity is **ARC Open Governance — The Agent Consequence Challenge**.
+Our first institutional experiment is ARC Open Governance, a foundation in formation working toward a machine-governed organization. A public Book of consequential decisions is planned; it is not yet published. ARC Open Governance is not a legally established or tax-exempt organization. Human decision-makers currently hold release authority. Machine governance is an active experiment.
+
+Our technical research investigates relations, Consequential Reachability and Recursive Relational Settlement.
+
+The research is already open for examination. Run the public [Examiner Kit](https://github.com/arc-open-governance/arc-examiner-kit), challenge the [Consequential Reachability Benchmark](https://github.com/arc-open-governance/Consequential-reachability), propose a stronger conventional implementation, or help develop the runtime and its applications.
+
+**Examine it. Challenge it. Help build the infrastructure.**
 
 ---
 
