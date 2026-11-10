@@ -97,13 +97,22 @@ A passing fixture is not a production KORE pass. A refusal in one exposed API is
 
 ---
 
-## Good first challenges
+## Challenges
 
-Clear scope, reproducible commands, an acceptance criterion, and a stated refutation. A result that refutes a claim at the stated scope, or that matches a strong conventional baseline, is a finding — not a failed participation.
+Clear scope, reproducible commands, an acceptance criterion, and a stated refutation. A result that refutes a claim at the stated scope, or that matches a strong conventional baseline, is a finding — not a failed participation. The seven contribution paths below remain the broader map. A fixture result is not an ARC-01 result.
 
-Well-scoped challenge issues will be opened in this repository. Until those issues are open and their URLs can be verified, this page does not list them or treat them as live invitations. The seven contribution paths below are the public map in the meantime.
+These eight issues are open in this repository. Each one carries commands, an acceptance criterion, and what counts as a refutation.
 
-Work already possible with the public Kit and Benchmark includes bypass attempts, revocation tests (including races), conventional baseline comparisons, duplicate-effect and interrupted-action tests, record-sufficiency exams, and a cold run of Examiner Kit v0.3.1 — at fixture or graph-model scope only. A fixture result is not an ARC-01 result.
+| ID | Challenge | Issue |
+| --- | --- | --- |
+| **C1** | Bypass attempt | [Issue #1](https://github.com/arc-open-governance/agent-consequence-challenge/issues/1) |
+| **C2** | Revocation test | [Issue #2](https://github.com/arc-open-governance/agent-consequence-challenge/issues/2) |
+| **C3** | Conventional baseline comparison | [Issue #3](https://github.com/arc-open-governance/agent-consequence-challenge/issues/3) |
+| **C4** | Duplicate-effect test | [Issue #4](https://github.com/arc-open-governance/agent-consequence-challenge/issues/4) |
+| **C5** | Interrupted-action test | [Issue #5](https://github.com/arc-open-governance/agent-consequence-challenge/issues/5) |
+| **C6** | Record-sufficiency test | [Issue #6](https://github.com/arc-open-governance/agent-consequence-challenge/issues/6) |
+| **C7** | Cold-run Examiner Kit v0.3.1 | [Issue #7](https://github.com/arc-open-governance/agent-consequence-challenge/issues/7) |
+| **C8** | Two-process revocation race | [Issue #8](https://github.com/arc-open-governance/agent-consequence-challenge/issues/8) |
 
 Do not test systems you do not operate. Use synthetic, operator-authorized environments. Do not post credentials, private logs, or production data. No result at fixture or graph-model scope may be reported as an ARC-01 result.
 
