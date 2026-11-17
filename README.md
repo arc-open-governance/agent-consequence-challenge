@@ -124,6 +124,12 @@ Do not test systems you do not operate. Use synthetic, operator-authorized envir
 
 ---
 
+## Live scoreboard
+
+The challenge is simple to state: pick one of the eight open challenge issues, run the check in your own operator-authorized synthetic sandbox, and post the artifact where the issue points, so a stranger can replay the same pinned bytes and check what you found. The [live scoreboard](SCOREBOARD.md) ranks submissions by examination standing and date, with refutations recorded with the same care as passes, and the [submission format](SUBMISSION-FORMAT.md) states exactly what counts as a valid reproduction. Entries are open research intake, not scored window results, until the scored-window conditions in the challenge issues are met.
+
+---
+
 ## Seven contribution paths
 
 The same architecture can be examined from more than one discipline. Pick a lane; then pick a challenge above, or propose a bounded task in the same spirit. Evidence from one lane is not automatically evidence for another.
